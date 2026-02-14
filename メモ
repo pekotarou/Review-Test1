@@ -1,0 +1,17 @@
+環境構築
+
+Dockerビルド
+・git
+・docker-compose up -d --build
+
+Laravel環境構築
+
+開発環境
+・お問い合わせ画面
+・ユーザー登録
+・phpMyAdmin
+
+使用技術（実行環境）
+・PHP 8.2.11
+・Laravel 8.83.8
+・Composer version 2.9.3 
