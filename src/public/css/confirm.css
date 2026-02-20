@@ -1,0 +1,110 @@
+/* 全体 */
+body {
+    background-color: #f5f3f0;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    margin: 0;
+    color: #5f534a;
+}
+
+/* コンテンツ全体 */
+.confirm__content {
+    width: 900px;
+    margin: 80px auto;
+}
+
+/* タイトル */
+.confirm__heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.confirm__heading h2 {
+    font-size: 32px;
+    font-weight: normal;
+    color: #7a6a5f;
+}
+
+/* テーブル外枠 */
+.confirm-table {
+    border: 1px solid #e0dbd5;
+    background-color: #fff;
+}
+
+/* テーブル */
+.confirm-table__inner {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* 行 */
+.confirm-table__row {
+    border-bottom: 1px solid #e0dbd5;
+}
+
+.confirm-table__row:last-child {
+    border-bottom: none;
+}
+
+/* 左側（ラベル） */
+.confirm-table__header {
+    width: 250px;
+    background-color: #b7a899;
+    color: #ffffff;
+    padding: 20px;
+    text-align: left;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+/* 右側（値） */
+.confirm-table__text {
+    padding: 20px;
+    background-color: #faf9f7;
+}
+
+/* readonly input */
+.confirm-table__text input,
+.confirm-table__text textarea {
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    color: #5f534a;
+    resize: none;
+}
+
+/* textarea高さ調整 */
+.confirm-table__text textarea {
+    min-height: 80px;
+}
+
+/* ボタンエリア */
+.form__button {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* 送信ボタン */
+.form__button-submit {
+    background-color: #7a6a5f;
+    color: #fff;
+    padding: 12px 60px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.form__button-submit:hover {
+    background-color: #66574e;
+}
+
+/* 修正ボタン */
+.form__button-edit {
+    background: none;
+    border: none;
+    color: #7a6a5f;
+    text-decoration: underline;
+    font-size: 14px;
+    cursor: pointer;
+}

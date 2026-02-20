@@ -1,0 +1,35 @@
+.header {
+    background-color: #ffffff;
+        font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px;
+    
+    border-bottom: 2px solid #f1f1f1;
+        /* 太さ2px、実線、黒色 */
+    padding-bottom: 5px;
+        /* 下線と文字の隙間（任意） */
+    
+}
+
+.header-utilities {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    color: #9d8e80;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.header__under__title__contact {
+    color: #9d8e80;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+}
